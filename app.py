@@ -14,10 +14,10 @@ with open('sentiment_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Create the Streamlit app
-st.title("Netherlands Wikipedia Sentiment Analysis by Malde Saicharan")
+st.title("Italy Wikipedia Sentiment Analysis by Charala Pujitha")
 
 st.write('''
-This app predicts the sentiment of text based on a model trained on Netherlands Wikipedia data.
+This app predicts the sentiment of text based on a model trained on Italy Wikipedia data.
 Enter a sentence below to analyze its sentiment.
 ''')
 
