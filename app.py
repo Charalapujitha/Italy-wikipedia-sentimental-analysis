@@ -22,7 +22,7 @@ Enter a sentence below to analyze its sentiment.
 ''')
 
 # Input text box
-user_input = st.text_area("Enter a sentence:", "The Netherlands is a beautiful country with rich history.")
+user_input = st.text_area("Enter a sentence:", "The Italy is a beautiful country with rich history.")
 
 # Word Cloud Visualization of the input sentence
 if user_input:
@@ -72,7 +72,7 @@ if st.button("Predict Sentiment"):
 
 st.subheader("About this Model")
 st.write('''
-This sentiment analysis model was trained on text from the Netherlands Wikipedia page.
+This sentiment analysis model was trained on text from the Italy Wikipedia page.
 The data preparation included:
 - Scraping and cleaning Wikipedia text
 - Sentence tokenization and sentiment analysis with TextBlob
